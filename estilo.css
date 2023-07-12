@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+}
+
+
+body{
+    text-align: center;
+    overflow: hidden;
+    background-image: linear-gradient(45deg, #cf9090, #e2c871);
+}
+
+.fundo{
+    width: 400px; 
+    margin-left: auto;
+    margin-right: auto; 
+    height: 100vh;
+    color: rgb(97, 16, 77);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;
+}
+
+.pet{
+border-radius: 10px;
+width: 80px;
+height: 80px;
+}
+
+.bloco{
+width: 400px;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: auto 15px;
+    padding: 5px 75px;;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(5px, 5vw, 1rem);
+    font-weight: 600;
+    color: rgb(156, 75, 190);
+    cursor: pointer;
+    background-color: #253963;
+    box-shadow: -2px 3px 0 #0a0e44, -4px 6px 0 #000000; 
+}
+
+.botao:hover{
+background: #0b4d28;
+}
+
+.botao:active{
+background: #354f97;
+}
+
+.barra{
+width: 100px;
+background: #99cc00;
+border: 2px solid #738121;
+margin: 5px 10px;
+border-radius: 4px;
+padding: 3px 3px;
+
+}
+
+.lado{
+float: left;
+margin: 10px 25px;
+width: 120px;
+}
+
+#blocoBotao{
+padding: 115px 0px;
+}
+
+#blocoImagem{
+padding: 0px 0px;
+position: relative;
+left: 45px;
+top: 75px;
+}
+
+#mensagem{
+color: red;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>✦•┈๑⋅✩ TAMAGOTCHI ✩⋅๑┈•✦</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+  </head>
+  <body>
+    <div class="fundo">
+        <div id="bloco">
+            <div id="blocoImagem">
+                <img src="img/azul.jpg" class="pet" id="pet" alt="imagem">
+            </div>
+
+            <div class="lado"><h2><strong>Status</strong></h2>
+                Fome:<div id="fome" class="barra"> 100%</div>
+                Higiene:<div id="higiene" class="barra"> 100%</div>
+                Sono:<div id="sono" class="barra"> 100%</div>
+                Diversão:<div id="diversao" class="barra"> 100%</div>
+                Social:<div id="social" class="barra"> 100%</div>
+            </div>
+
+            <div id="blocoBotao">
+                <button class="botao" onclick="Comer()">Comer</button>
+                <button class="botao" onclick="Banho()">Banho</button>
+                <button class="botao" onclick="Dormir()">Dormir</button>
+                <button class="botao" onclick="Brincar()">Brincar</button>
+                <button class="botao" onclick="Conversar()">Conversar</button>
+            </div>
+
+                <h3><div id="mensagem"></div></h3>
+
+        </div>
+
+    </div>
+
+  <script src="script.js"></script>
+
+  </body>
+</html>
